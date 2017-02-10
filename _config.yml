@@ -2,24 +2,21 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-<<<<<<< HEAD
-gems: 		[jekyll-paginate]
-=======
->>>>>>> 34cc21ac05556684612f26dd517aec9196e0cae3
+gems:     [jekyll-paginate]
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               何先生的小屋
+tagline:             'DataGridView'
+description:         'The module is powered by<a href="https://twitter.com/mdo" target="_blank">@mdo</a>.<br>Redesigned by a small little cute<br><a href="http://weibo.com/u/2923167807">@城南走位王何老汉</a>'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              He Yunfan
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             heyunfan1996@gmail.com
 
 # Custom vars
 version:             1.0.0
