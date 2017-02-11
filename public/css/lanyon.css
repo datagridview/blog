@@ -310,7 +310,8 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom:5px;
+  font-family:"DengXian";
 }
 
 /* Blog post or page title */
@@ -326,9 +327,7 @@ a.sidebar-nav-item:focus {
 
 /* Meta data line below post title */
 .post-date {
-  display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
+  float:right;
   color: #9a9a9a;
 }
 

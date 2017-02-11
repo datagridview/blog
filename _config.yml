@@ -1,7 +1,7 @@
-# Permalinks
+﻿# Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: /:month-:day-:year/:title.html
 gems:     [jekyll-paginate]
 
 # Setup
@@ -10,7 +10,7 @@ tagline:             'DataGridView'
 description:         'The module is powered by<a href="https://twitter.com/mdo" target="_blank">@mdo</a>.<br>Redesigned by a small little cute<br><a href="http://weibo.com/u/2923167807">@城南走位王何老汉</a>'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
-paginate:            5
+paginate:            10
 
 # About/contact
 author:
