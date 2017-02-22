@@ -18,8 +18,11 @@ You'll love the slick user interface, extraordinary features and amazing perform
 很久之前我就开始使用了这款编辑器，原因是受不了vs打开的速度相对较慢；后来接触了python之后，安装了pycharm之后发现这个基于IntelliJ IDEA的IDE平台在windows上，都十分的卡。于是我钻研了一下这个编译器的插件，阅读了很多的资料，完成了Sublime Text 3+c、+python，+markdown，+textile（后两个是写作语法）的环境，那我们今天就来说一下Sublime Text 3+python 的配置过程。
 ## 下载
 现在，我默认你已经装好了python，无论是python2.7、python3.5，还是两者都共存都行。安装好的标志是，在终端中输入`python -V`，会输出python的版本号，这样我们可以认为既安装好了python，也配置好了环境变量（环境变量的配置基本上和我上一篇的系统变量的配置类似）
+
 官方网站安装地址（略慢）：[Sublime Text 3官网](https://download.sublimetext.com/Sublime%20Text%20Build%203126%20x64%20Setup.exe) 
+
 国内第三方软件安装地址：[Sublime Text 3国内](http://soft2.xzstatic.com/2016/02/Sublime%20Text%20Build%203083.zip)
+
 接下来的应该都不难了，我这里就不再啰嗦了~
 安装完毕之后，现在应该是一个纯净版的sublime，所以里面不会有很多的功能，但是几乎支持了所有的代码语法标注和高亮。
 
