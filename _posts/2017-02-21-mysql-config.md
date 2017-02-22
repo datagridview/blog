@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 在windows(zip)下配置MySql 5.7.17
+title: Windows下配置MySql(ZIP)
 ---
 
 现在的B/S模式，最热的应该算是php+MySql+前端，很多大型的网站就是这种架构。当然，也有很多是微软的各类MSSQL+服务器后端(ASP,ASPX)+前端。今天我就从mysql的安装配置这个最基本的点来叙述，毕竟我们是一个喜欢安装软件的专业（笑）
@@ -125,6 +125,8 @@ update user set authentication_string = password("root") where user="root";
 用`exit`退出mysql console界面。
 
 之后删除my.ini中的`skip-grant-tables`，再重新启动mysql服务，这次登陆需要刚才设置的密码了。
+
+现在，到此为止你就可以使用mysql数据库了。
 
 
 
