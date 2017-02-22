@@ -128,6 +128,8 @@ update user set authentication_string = password("root") where user="root";
 
 现在，到此为止你就可以使用mysql数据库了。
 
+##### datagridview
+
 
 
 
