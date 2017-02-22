@@ -98,7 +98,7 @@ C:\Users\云帆\AppData\Roaming\Sublime Text 3\Packages
 #这里是python 3.5,如果是python 2.7，则测试代码为print 'Hello Heyunfan'酌情选择
 print('Hello Heyunfan')
 ```
-#####运行错误
+##### 运行错误
 有时候会显示如下错误：
 
 ![python error](/public/source/python error.png)
