@@ -31,7 +31,7 @@ title: 在windows(zip)下配置MySql 5.7.17
 
 ## 开始配置
 
-#### 系统变量的配置
+### 系统变量的配置
 
 现在我们先完成系统环境变量的配置，那为什么要完成系统环境变量的配置呢？简单说来，配置系统环境变量就是一种直接用命令行调用函数的方法，比如说我安装好了python，我想cmd.exe/python直接打开它的工作台，而不是要一步一步cd e:\python 3.5\python.exe 这样打开。环境变量配置成功，就相当于简化了这个寻找的过程。
 
@@ -39,7 +39,7 @@ title: 在windows(zip)下配置MySql 5.7.17
 当然，再下一层选择系统变量（而不是用户变量），找到path，点击新建，将mysql的地址复制到上面（我的是E:\mysql-5.7.17-winx64\bin），之后确认一次退出新建页面，再确认一次退出环境变量配置。
 
 这时候win+r打开运行，如果输入`mysql -V`显示当前mysql版本，配置成功。
-#### 配置文件中的basedir、datadir
+### 配置文件中的basedir、datadir
 
 打开my-defult.ini，更改其中的basedir、datadir，base后等于mysql文件包地址
 ```
@@ -48,10 +48,10 @@ datadir=E:\mysql-5.7.17-winx64\data
 ```
 
 但是我们并没有data文件夹？没关系，我们接下来初始化mysql可以生成data文件夹
-#### mysql命令行配置
+### mysql命令行配置
 
 用管理员的权限打开终端，用命令行操作进入mysql的本地文件夹
-##### 依次输入(进入bin文件夹)
+#### 依次输入(进入bin文件夹)
 
 ```
 cd ..\\..
@@ -59,7 +59,7 @@ e:
 cd mysql-5.7.17-winx64\bin
 ```
 接下来的操作都在这里进行
-##### 初始化mysql
+#### 初始化mysql
 
 ```
 mysqld initialize --user=mysql --console
@@ -67,13 +67,13 @@ mysqld initialize --user=mysql --console
 
 会在mysql目录下会生成一个data文件夹
 
-##### 安装mysql服务
+#### 安装mysql服务
 
 ```
 mysqld install mysql
 ```
 成功后显示`Service successfully installed.`
-##### 启动mysql服务
+#### 启动mysql服务
 
 ```
 net start mysql
@@ -81,14 +81,14 @@ net start mysql
 
 此处会可能产生一些问题，以后更新
 正常情况先，会产生两行的提示，提示服务已经成功启动
-#### 登录数据库
+### 登录数据库
 
 ```
 mysql -u root -p
 ```
 
 ![error](/public/source/error.png)回车键进入之后输入密码（可是你并不知道密码呀~~），一般会产生错误error 1045
-##### 解决方法
+#### 解决方法
 
 创建一个my.ini，在其中输入以下代码（需要更改一下扩展名）
 ```
@@ -96,7 +96,7 @@ mysql -u root -p
 skip-grant-tables
 ```
 记得保存。
-###### 关闭服务并重新启动
+#### 关闭服务并重新启动
 
 ```
 net stop mysql
@@ -104,7 +104,7 @@ net start mysql
 mysql -u root -p
 ```
 这时候我们不用输入密码，就直接回车，提示`Welcome...`就代表已经成功了。
-##### 更改登陆用户
+#### 更改登陆用户
 
 首先进入mysql数据库：
 ```
