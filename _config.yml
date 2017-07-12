@@ -3,7 +3,8 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:month-:day-:year/:title.html
 gems:     [jekyll-paginate]
-
+markdown: kramdown
+highlighter: pygments
 # Setup
 title:               何先生的小屋
 tagline:             'DataGridView'
