@@ -56,8 +56,8 @@ db.close()
 ## 解答
 
 找到了一篇文章（节选）:
-```
-然后通过百度查找发现，其实MySQLdb库，自带了事务处理的功能，pymysql库也是一样。
+
+>然后通过百度查找发现，其实MySQLdb库，自带了事务处理的功能，pymysql库也是一样。
 conn = MySQLdb.connect()返回一个连接对象
 cursor = conn.cursor()返回一个游标对象
 当我们使用cursor.execute(SQL)执行一条Insert/Update/Delete语句后，我们需要使用conn.commit()提交事务，否则，语句不会生效。
@@ -75,7 +75,7 @@ conn.commit()
 except Exception, e:
 cursor.close()
 conn.rollback()
-```
+
 
 重点在于“当我们使用cursor.execute(SQL)执行一条Insert/Update/Delete语句后，我们需要使用conn.commit()提交事务”
 ！！！所以除了以上几点别的可以直接execute()
