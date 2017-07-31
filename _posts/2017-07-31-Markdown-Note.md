@@ -13,8 +13,8 @@ title: markdown语法笔记
 
 ```markdown
 > 
-> you have use a format of blockquote.		#不一定每行都要加这个引导号，一个段落一个也行
->> This is nested blockquote.				#可以嵌套(多种markdown语法样式)
+> you have use a format of blockquote.#不一定每行都要加这个引导号，一个段落一个也行
+>> This is nested blockquote.#可以嵌套(多种markdown语法样式)
 >#(1.)
 ```
 
@@ -48,34 +48,34 @@ title: markdown语法笔记
 直接一个Tab开头写。
 
 ```markdown
-ordinary;				#普通区域
-	codeField;			#代码区块
-*** --- 			  #分隔线
+ordinary;	#普通区域
+	codeField;	#代码区块
+***   --- 	#分隔线
 ```
 
 ### 链接
 
 ```markdown
-This is [an example](http://example.com/ "Title") inline link.	#有标题（可以相对路径）
-[This link](http://example.net/) has no title attribute.		#无标题
-This is [an example][id] reference-style link.					#id代替法
-[id]: http://example.com/  (Optional Title Here)				#id的链接表示（用数字一般title要写）
+This is [an example](http://example.com/ "Title") inline link.#有标题
+[This link](http://example.net/) has no title attribute.#无标题
+This is [an example][id] reference-style link.#id代替法
+[id]: http://example.com/  (Optional Title Here)#id的链接表示（用数字一般title要写）
 ```
 
 ### 强调\小段代码
 
 ```markdown
-*single asterisks*			<em>single asterisks</em>
-**strong asterisks**		<strong>double asterisks</strong>
-`short code`				#小段代码的引用
+*single asterisks*	<em>single asterisks</em>
+**strong asterisks**	<strong>double asterisks</strong>
+`short code`	#小段代码的引用
 ```
 
 ### 图片
 
 ```markdown
-![Alt text](/path/to/img.jpg "Optional title")		#图片的插入
+![Alt text](/path/to/img.jpg "Optional title")	#图片的插入
 ![Alt text][id]
-[id]: url/to/image  "Optional title attribute"		#与网址一致
+[id]: url/to/image  "Optional title attribute"	#与网址一致
 ```
 
 ### 另注
