@@ -17,7 +17,7 @@ title: WhatsNext TODO工具
 r = redis.StrictRedis(host='127.0.0.1', port=6379, db=0)
 ```
 
-远端数据库填写远端ip，本机填写127.0.0.1。具体redis python配置有时间出一篇。redis操作见我的[wiki](wiki.heyunfan.com)。
+远端数据库填写远端ip，本机填写127.0.0.1。具体redis python配置有时间出一篇。redis操作见我的[wiki](http://wiki.heyunfan.com)。
 
 ## 安装
 
