@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CampusWebLogin校园网一键登录工具
+title: Django + uWSGI + Nginx
 ---
 
 An Easy way to log in the campus network, written in [Python](https://www.python.org/)  by He yunfan.
