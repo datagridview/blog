@@ -1,6 +1,6 @@
 ---
 layout: page
-title: [repost]Django + uWSGI + NGINX
+title: (repost)Django + uWSGI + NGINX
 ---
 
 A brief way to explain how to deploy django in nginx.
