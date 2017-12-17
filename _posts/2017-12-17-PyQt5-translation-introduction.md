@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PyQt5（1）简介
+title: PyQt5-简介
 ---
 
 最近在研究GUI，主要用于展示自己一些比较不错的应用。不然别人不知道自己做的东西有多有趣。
@@ -39,11 +39,7 @@ PyQt5被分为多个模块，包含以下：
 - QtSql
 - QtTest
 
-QtCore模块没有GUI功能。该模块被用来控制时间，文件及目录，多数据类型，流，URL，媒体格式，线程和进程。QtGui包含窗口系统集成，事件处理，2D图形，基本图像，字体和文本类。QtWidgets模块包含提供用来创建一系列经典桌面风格的UI对象的类。QtMultimedia包含用来控制多媒体内容和照相机等多媒体设备的接口的类。
-
-QtBluetooth模块包含用于扫描和连接外部设备的类。QtNetwork包含用于网络编程的类。这些集成了TCP/IP和UDP的类使得网络编程更加的简单、便携。QtPositioning包含通过一系列类似卫星、WIFI、文本文件等源来确定位置。Enginio模块实现了用于访问Qt云服务托管应用程序运行时的客户端库。QtWebSockets模块包含了实现了WeobSocket协议的类。QtWebKit包含了基于WebKit2库实现的网络浏览器的类。 QtWebKitWidgets包含了基于Web QtWidgets应用程序的基于WebKit1的Web浏览器实现的类。
-
-QtXml包含了用于与Xml文件的类。这个模块实现了SAX和DOM APIS两种方式。QtSvg提供了用于展示svg内容的类。SVG是一种用xml用来表示2D图像和应用的文件格式。QtSql提供了用于操作数据库的类。QtTest用于提供Qt的应用测试。
+QtCore模块没有GUI功能。该模块被用来控制时间，文件及目录，多数据类型，流，URL，媒体格式，线程和进程。QtGui包含窗口系统集成，事件处理，2D图形，基本图像，字体和文本类。QtWidgets模块包含提供用来创建一系列经典桌面风格的UI对象的类。QtMultimedia包含用来控制多媒体内容和照相机等多媒体设备的接口的类。QtBluetooth模块包含用于扫描和连接外部设备的类。QtNetwork包含用于网络编程的类。这些集成了TCP/IP和UDP的类使得网络编程更加的简单、便携。QtPositioning包含通过一系列类似卫星、WIFI、文本文件等源来确定位置。Enginio模块实现了用于访问Qt云服务托管应用程序运行时的客户端库。QtWebSockets模块包含了实现了WeobSocket协议的类。QtWebKit包含了基于WebKit2库实现的网络浏览器的类。 QtWebKitWidgets包含了基于Web QtWidgets应用程序的基于WebKit1的Web浏览器实现的类。QtXml包含了用于与Xml文件的类。这个模块实现了SAX和DOM APIS两种方式。QtSvg提供了用于展示svg内容的类。SVG是一种用xml用来表示2D图像和应用的文件格式。QtSql提供了用于操作数据库的类。QtTest用于提供Qt的应用测试。
 
 ## PyQt4和PyQt5的差异
 
