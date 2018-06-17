@@ -4,14 +4,14 @@
 permalink: /:month-:day-:year/:title.html
 gems:     [jekyll-paginate]
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 # Setup
 title:               何先生的小屋
 tagline:             'DataGridView'
 description:         'The module is powered by<a href="https://twitter.com/mdo" target="_blank">@mdo</a>.<br>Redesigned by a small little cute<br><a href="http://weibo.com/u/2923167807">@城南走位王何老汉</a>'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
-paginate:            10
+paginate:            20
 
 # About/contact
 author:
