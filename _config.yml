@@ -4,7 +4,7 @@
 permalink: /:month-:day-:year/:title.html
 gems:     [jekyll-paginate]
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 # Setup
 title:               何先生的小屋
 tagline:             'DataGridView'
