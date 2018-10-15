@@ -50,17 +50,17 @@ var point = {
 	x : 0, 
 	y : 0, 
 	moveTo : function(x, y) { 
-				// 内部函数
-				var moveX = function(x) {
-					this.x = x;//this 绑定到了哪里？
-					}; 
-				// 内部函数
-				var moveY = function(y) { 
-					this.y = y;//this 绑定到了哪里？
-					}; 
-			moveX(x); 
-			moveY(y); 
-			} 
+		// 内部函数
+		var moveX = function(x) {
+		this.x = x;//this 绑定到了哪里？
+		}; 
+		// 内部函数
+		var moveY = function(y) { 
+			this.y = y;//this 绑定到了哪里？
+		}; 
+		moveX(x); 
+		moveY(y); 
+	} 
 }; 
 point.moveTo(1, 1);
 point.x; //==>0
@@ -76,18 +76,18 @@ var point = {
 	x : 0, 
 	y : 0, 
 	moveTo : function(x, y) {
-				var that = this; 
-				// 内部函数
-				var moveX = function(x) {
-					that.x = x; 
-				}; 
-				// 内部函数
-				var moveY = function(y) {
-					that.y = y;
-				} 
-				moveX(x); 
-				moveY(y); 
-			}
+		var that = this; 
+		// 内部函数
+		var moveX = function(x) {
+			that.x = x; 
+		}; 
+		// 内部函数
+		var moveY = function(y) {
+			that.y = y;
+		} 
+		moveX(x); 
+		moveY(y); 
+	}
 }; 
 point.moveTo(1, 1);
 point.x; //==>1 
@@ -115,10 +115,10 @@ function Point(x, y){
 	this.x = x; 
 	this.y = y;
 	this.moveTo = function(x, y){
-			this.x = x;
-			this.y = y;
-		}
-		}
+		this.x = x;
+		this.y = y;
+	}
+}
 var p1 = new Point(0, 0);
 var p2 = {x: 0, y: 0};
 p1.moveTo(1, 1);
