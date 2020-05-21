@@ -428,7 +428,7 @@ a.sidebar-nav-item:focus {
 
 .pagination-item {
     display: block;
-    padding: 1rem;
+    padding: 0.7rem;
     border: 1px solid #eee;
 }
 
