@@ -172,6 +172,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
+  tab-size: 4;
 }
 pre code {
   padding: 0;
