@@ -43,14 +43,14 @@ body {
 }
 
 html {
-    font-family: Microsoft YaHei;
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 h1,
 h4,
 h5,
 h6 {
-    font-family: Microsoft YaHei;
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
     font-weight: 700;
     color: #313131;
     letter-spacing: -.025rem;
@@ -58,7 +58,7 @@ h6 {
 
 h2,
 h3 {
-    font-family: Microsoft YaHei;
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
     font-weight: 700;
     color: #313131;
     letter-spacing: -.025rem;
@@ -348,7 +348,7 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
     margin-bottom: 5px;
-    font-family: "Microsoft YaHei";
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 

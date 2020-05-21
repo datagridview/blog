@@ -6,7 +6,7 @@ gems:     [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 # Setup
-title:               何先生的小屋
+title:               何先生的blog
 tagline:             'DataGridView'
 description:         'The module is powered by<a href="https://twitter.com/mdo" target="_blank">@mdo</a>.<br>Redesigned by a small little cute<br><a href="http://weibo.com/u/2923167807">@城南走位王何老汉</a>'
 url:                 http://lanyon.getpoole.com
