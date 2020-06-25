@@ -5,7 +5,8 @@ comments: true
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
+  <div id="main_content">{{ content }}</div>
+  
 </div>
 
   <div id="disqus_thread"></div>
@@ -21,6 +22,7 @@ comments: true
   };
   */
   (function() { // DON'T EDIT BELOW THIS LINE
+  $('#main_content').toc();
   var d = document, s = d.createElement('script');
   s.src = 'https://blog-heyunfan-com.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
