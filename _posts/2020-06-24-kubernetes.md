@@ -2,6 +2,10 @@
 layout: page
 title: Kubernetes入门实践
 ---
+- [什么是kubernetes？](#什么是kubernetes)
+- [pros](#pros)
+- [discriminations](#discriminations)
+
 
 ## 什么是kubernetes？
 > Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
