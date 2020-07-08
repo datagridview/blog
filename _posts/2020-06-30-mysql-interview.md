@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Repost | 数据库面试问题
+title: Repost | 数据库相关
 ---
 
 - [什么是SQL？](#什么是sql)

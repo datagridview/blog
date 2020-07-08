@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 分布式系统和架构面试问题
+title: 分布式系统和架构相关
 ---
 
 ### Python LRU
