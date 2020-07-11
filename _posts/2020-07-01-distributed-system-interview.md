@@ -5,6 +5,7 @@ title: 分布式系统和架构相关
 
 ### Python LRU
 ```python
+# orderDict是实现
 class LRUCache:
 
     def __init__(self, capacity):
@@ -25,6 +26,68 @@ class LRUCache:
         elif len(self.queue.items()) == self.capacity:
             self.queue.popitem(last=False) // 如果不在缓存中并且到达最大容量，则把最后的数据淘汰
         self.queue[key] = value // 将新数据添加到头部
+
+# 双向链表+hash实现
+class Node(object):
+    def __init__(self, data, pre=None, next=None):
+        self.data = data
+        self.pre = pre
+        self.next = next
+
+class DoubleLink(object):
+    def __init__(self):
+        self.tail = None
+        self.head = None
+        self.size = 0
+
+    def insert(self, data):
+        if isinstance(data, Node):
+            tmp_node = data
+        else:
+            tmp_node = Node(data)
+
+        if self.size == 0:
+            self.tail = tmp_node
+            self.head = self.tail
+        else:
+            self.head.pre = tmp_node
+            tmp_node.next = self.head
+            self.head = tmp_node
+        self.size += 1
+        return self.head
+
+    def remove(self, node):
+        if node == self.head:
+            self.head = self.head.next
+            self.head.pre = None
+        elif node == self.tail:
+            self.tail = self.tail.pre
+            self.tail.next = None
+        else:
+            node.pre.next = node.next
+            node.next.pre = node.pre
+        self.size -= 1
+
+    
+class LRUCache:
+    def __init__(self, size):
+        self.size = size
+        self.hash = {}
+        self.link = DoubleLink()
+
+    def set(self, key, value):
+        if self.size == self.link.size:
+            self.link.remove(self.link.tail)
+        if key in self.hash:
+            self.link.remove(self.hash.get(key))
+        tmp_node = self.link.insert(value)
+        self.hash.__setitem__(key, tmp_node)
+
+    def get(self, key):
+        tmp_node = self.hash.get(key)
+        self.link.remove(tmp_node)
+        self.link.insert(tmp_node)
+        return tmp_node.data
 ```
 
 ### 怎么确保分布式ID的唯一性？
