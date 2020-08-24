@@ -3,6 +3,21 @@ layout: page
 title: 分布式系统和架构相关
 ---
 
+- [Python LRU](#python-lru)
+- [怎么确保分布式ID的唯一性？](#怎么确保分布式id的唯一性)
+- [设计一个秒杀系统，XX分钟之后自动XX？](#设计一个秒杀系统xx分钟之后自动xx)
+- [zookeeper和redis如何是心啊分布式锁？有什么区别？](#zookeeper和redis如何是心啊分布式锁有什么区别)
+- [什么是一致性hash？](#什么是一致性hash)
+- [什么是REST？](#什么是rest)
+- [什么是MESI？什么是缓存一致性？](#什么是mesi什么是缓存一致性)
+- [HASH算法](#hash算法)
+- [什么是ZAB协议？](#什么是zab协议)
+- [如何实现多人在线文档编辑？](#如何实现多人在线文档编辑)
+- [RPC请求的流程？](#rpc请求的流程)
+- [RPC的原理是什么？](#rpc的原理是什么)
+- [用python实现一个rpc](#用python实现一个rpc)
+
+
 ### Python LRU
 ```python
 # orderDict是实现
